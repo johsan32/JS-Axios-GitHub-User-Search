@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Github Profil Search</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-logo">
+      <i class="fa-brands fa-github"></i>
+    </div>
+    <form class="header-search" id="form">
+      <button type="submit">
+        <i class="fa-solid fa-magnifying-glass glass"></i>
+      </button>
+      <input class="input" type="text" placeholder="Search or jump to..." id="search" autocomplete="off">
+      <i class="fa-solid fa-feather pen"></i>
+    </form>
+    <div class="header-menu d-none d-xl-block">
+      <a href="#">Pull requests</a>
+      <a href="#">Issues</a>
+      <a href="#">Marketplace</a>
+      <a href="#">Explore</a>
+    </div>
+    <div class="header-right">
+      <i class="fa-regular fa-bell"></i>
+      <i class="fa-regular fa-plus"></i>
+      <i class="fa-sharp fa-solid fa-caret-down"></i>
+      <img src="images/profil.jpg" width="30px" height="30px" alt="">
+      <i class="fa-sharp fa-solid fa-caret-down"></i>
+    </div>
+  </header>
+
+  <section class="slide" id="main">
+    <!-- <div class="person">
+            <div class="smile">
+              <img class="person-img" src=./images.profil.png" alt=""  / >
+              <i class="fa-regular fa-face-smile"></i>     
+            </div>
+      <div class="person-info">
+        <div class="person-name">
+          <h2>Hasan Ulusoy</h2>
+          <span>@johsan32</span>
+        </div>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+        accusamus fuga dolor 
+        
+      </p>
+      <ul>
+        <li>
+          <i class="fa-solid fa-user-group"></i> 100
+          <strong>Followers</strong>
+        </li>
+        <li>100 <strong>Following</strong></li>
+        <li>
+          <i class="fa-solid fa-bookmark"></i> 100 <strong>Repository</strong>
+        </li>
+      </ul>
+
+      <div class="repos" id="repos">
+        <a href="#"> <i class="fa-solid fa-book-bookmark"></i> Repo 1 </a>
+        <a href="#"> <i class="fa-solid fa-book-bookmark"></i> Repo 1 </a>
+        <a href="#"> <i class="fa-solid fa-book-bookmark"></i> Repo 1 </a>
+      </div>
+    </div> -->
+  </section>
+
+  <footer class="footer">
+    <div class="footer-main">
+      <div class="footer-logo">
+        <i class="fa-brands fa-github"></i>
+        <p>© 2023 GitHub, Inc.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
